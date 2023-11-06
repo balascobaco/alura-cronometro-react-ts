@@ -47,6 +47,7 @@
 	},
 	"devDependencies": {
 		"@types/uuid": "^9.0.6",
+		"gh-pages": "^6.0.0",
 		"sass": "^1.69.5",
 		"typescript-plugin-css-modules": "^5.0.2"
 	}
