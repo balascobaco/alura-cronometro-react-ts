@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+# React Cronometro de Estudos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo! Esse é um projeto realizado através do curso React: [Escrevendo com Typescript](https://cursos.alura.com.br/course/react-modernizando-escrever-typescript) da Alura! A ideia era criar um cronometro para controle de lista de estudos.
 
-## Available Scripts
+## Funcionalidades Principais
 
-In the project directory, you can run:
+- **Adicionar Tarefas:** Você pode adicionar o que quer estudar simplesmente inserindo o texto da tarefa e pressionando "Enter" ou clicando no botão "Adicionar Tarefa".
 
-### `npm start`
+- **Play no Relógio** Selecione uma tarefa e aperte começar! Quando o tempo acabar tarefa será dada como concluída!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Funcionalidades Extras
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Tomei a liberdade de adicionar algumas funcionalidades que julguei interessante, essas funcionalidades em questão **não foram vistas através do curso**.
 
-### `npm test`
+- **Agora você pode desselecionar uma tarefa** A capacidade de desselecionar uma tarefa clicando nela novamente foi adicionada, antes, para desselecionar um item da lista, era necessário clicar em um item diferente, agora, caso a lista tiver apenas 1 item, não há essa necessidade.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Mudou de ideia? Delete um item da lista!** Caso o usuário não deseje mais estudar algum item específico, agora é possível deletar este item ao seleciona-lo.
 
-### `npm run build`
+## App Live
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Você consegue acessar do seu navegador clicando [aqui](https://balascobaco.github.io/alura-cronometro-react-ts)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Como Visualizar em sua máquina
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone este repositório em sua máquina local.
 
-### `npm run eject`
+```bash
+git clone https://github.com/balascobaco/alura-cronometro-react-ts.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Navegue até a pasta do projeto.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd alura-cronometro-react-ts
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Instale as dependências
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+ou
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+yarn install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Inicie o Aplicativo
+
+```bash
+npm run dev
+```
+
+5. Acesse o aplicativo em seu navegador no endereço `http://localhost:3000`.
+
+## Tecnologias Utilizadas
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- React
+- TypeScript
+
+## Agradecimentos
+
+Gostaria de agradecer em especial a Alura e o professor Luis por esse curso em específico. Foi uma oportunidade de aumentar os meus conhecimentos sobre o React de uma forma clara e didática!
+
+## Autor
+
+Este projeto foi criado por Gabriel Balasco.
+
+[Github](https://github.com/balascobaco)
+[Twitter](https://twitter.com/balascobaco)
+[Instagram](https://instagram.com/balascobaco)
