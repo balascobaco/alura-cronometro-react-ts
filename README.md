@@ -60,6 +60,8 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - React
 - TypeScript
+- SCSS
+- CSS Modules
 
 ## Agradecimentos
 
